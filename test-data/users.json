@@ -1,0 +1,12 @@
+{
+    "valid_user": {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "description": "Usuário padrão com acesso normal ao site."
+    },
+    "locked_out_user": {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "description": "Usuário bloqueado, deve receber uma mensagem de erro ao tentar logar."
+    }
+  }
