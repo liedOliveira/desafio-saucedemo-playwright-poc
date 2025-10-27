@@ -63,7 +63,23 @@ desafio-saucedemo-playwright-poc/
 
 ## ▶️ 5. Como rodar os testes
 
-### 🧩 Opção 1 — Rodar os testes pelo terminal
+### 🧩 Opção 1 — Rodar pela UI do Playwright (recomendado ✅)
+
+Abra o modo interativo da UI de testes:
+
+```bash
+npx playwright test --ui
+```
+
+Isso abrirá a interface gráfica do Playwright, onde você pode:
+
+- Rodar testes individualmente
+- Rodar todos os testes de uma única vez
+- Ver o passo a passo das execuções
+- Visualizar o andamento dos testes
+- Depurar testes diretamente
+
+### 🧩 Opção 2 — Rodar os testes pelo terminal
 
 Execute todos os testes em modo headless (sem abrir o navegador):
 
@@ -77,20 +93,6 @@ Para abrir com navegador visível:
 npx playwright test --headed
 ```
 
-### 🧩 Opção 2 — Rodar pela UI do Playwright (recomendado ✅)
-
-Abra o modo interativo da UI de testes:
-
-```bash
-npx playwright test --ui
-```
-
-Isso abrirá a interface gráfica do Playwright, onde você pode:
-
-- Rodar testes individualmente
-- Ver o passo a passo das execuções
-- Visualizar screenshots e vídeos
-- Depurar testes diretamente
 
 ## 🧩 6. Relatórios e resultados
 
